@@ -438,6 +438,7 @@ img {
 
 .large-hero {
   position: relative;
+
 }
 
 .large-hero__text-content {
@@ -448,4 +449,44 @@ img {
   left: 0;
   width: 100%;
   text-align: center;
+}
+
+.large-hero__title {
+  font-weight: 300;
+  color: #2F5572;
+  font-size: 4.8rem;
+  margin: 0;
+}
+
+.large-hero__subtitle {
+  font-weight: 300;
+  color: #2F5572;
+  font-size: 2.9rem;
+  margin: 0;
+}
+
+.large-hero__description {
+  color: #FFF;
+  font-weight: 100;
+  font-size: 1.875rem;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #2F5572;
+  color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+}
+
+.btn--orange {
+  background-color: #D59541;
+}
+
+.btn--large {
+  font-size: 1.25rem;
+  padding: 1.1rem 1.9rem;
 }
